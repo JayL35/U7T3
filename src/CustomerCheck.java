@@ -66,5 +66,6 @@ public class CustomerCheck
         {
             tip = newPrice  * 0.2;
         }
+        return newPrice - discount + tip;
     }
 }
